@@ -1,0 +1,35 @@
+package:
+  id: qt5platform-plugins
+  name: qt5platform-plugins
+  kind: lib
+  version: 5.0.58
+  description: |
+    qt5platform plugins.
+
+base:
+  id: org.deepin.base/20.5.0
+
+depends:
+- id: qtbase/5.11.3.15
+- id: qttools/5.11.3
+- id: qtx11extras/5.11.3
+- id: qtwayland/5.15.1.7
+- id: kwayland/5.54.0
+- id: qtsvg/5.11.3
+- id: qtmultimedia/5.11.3
+- id: gsettings-qt/0.2
+- id: dtkcommon/5.5.3
+- id: dtkcore/5.5.26
+- id: dtkgui/5.5.22
+- id: dtkwidget/5.5.39
+- id: googletest/1.8.1
+
+source:
+  kind: git
+  url: https://github.com/linuxdeepin/qt5platform-plugins.git
+  version: develop/snipe
+  commit: 623ce74a8ce2dc81e6efad0d271db64736e3b651
+
+  patch: []
+build:
+  kind: qmake
