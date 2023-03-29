@@ -7,7 +7,7 @@ package:
     qt5platform plugins.
 
 base:
-  id: org.deepin.base/20.5.0
+  id: org.deepin.base/23.0.0
 
 depends:
 - id: qtbase/5.11.3.15
