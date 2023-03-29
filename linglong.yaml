@@ -14,7 +14,7 @@ depends:
 - id: qttools/5.11.3
 - id: qtx11extras/5.11.3
 - id: qtwayland/5.15.1.7
-- id: kwayland/5.54.0
+- id: kwayland/5.57.0
 - id: qtsvg/5.11.3
 - id: qtmultimedia/5.11.3
 - id: gsettings-qt/0.2
